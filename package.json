@@ -1,0 +1,14 @@
+{
+  "name": "my-portofolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
